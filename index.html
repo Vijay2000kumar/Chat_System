@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Incident Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="incident-container">
+        <h2>Incident</h2>
+        <p class="comment-count">2 comments</p>
+
+        <!-- Incident Details -->
+        <div class="incident-details">
+            <p><strong>Description - Primary Comment</strong></p>
+            <p class="primary-comment">litmusworld - HDFC Bank Help desk, Did not receive any response for date 26-Apr-2022.</p>
+            
+            <hr>
+
+            <p><strong>Incident</strong></p>
+            <p>Response Not Received</p>
+
+            <hr>
+
+            <p><strong>Account Detail</strong></p>
+            <p>litmusworld ( 59f8114d9e0a36e170f7b70f )</p>
+
+            <hr>
+
+            <p><strong>Brand Detail</strong></p>
+            <p>HDFC Bank Help desk ( 5e79e52fb205e36cd8450bb6 )</p>
+
+            <hr>
+
+            <p><strong>Environment</strong></p>
+            <p class="production">Production</p>
+
+            <hr>
+
+            <p><strong>Incident Date</strong></p>
+            <p class="incident-date">26-Apr-2022</p>
+
+            <hr>
+
+            <p><strong>Project Client Ops</strong></p>
+            
+        </div>
+
+        <!-- Comments Section -->
+        <div class="comments-section">
+            <div class="comment">
+                <img src="profile.png" alt="User Avatar" class="avatar">
+                <div class="comment-box">
+                    <p>Assigning the issue to Tekram Patel.</p>
+                    <span class="timestamp">2025-03-24T05:27:17.621Z</span>
+                </div>
+            </div>
+
+            <div class="comment user-comment">
+                <div class="comment-box">
+                    <p>Thank you, Please look into it on priority and let us know if anything needs to be done at our end.</p>
+                    <span class="timestamp">2025-03-24T09:28:20.781Z</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Input Box to Add Comments -->
+        <div class="comment-input">
+            <input type="text" id="commentText" placeholder="Write a comment...">
+            <button onclick="postComment()">Send</button>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

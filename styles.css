@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+.incident-container {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-bottom: 5px;
+}
+
+.comment-count {
+    color: gray;
+    font-size: 14px;
+}
+
+.incident-details {
+    background: #333;
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.incident-details p {
+    margin: 5px 0;
+}
+
+hr {
+    border: 0.5px solid #666;
+    margin: 10px 0;
+}
+
+.production {
+    color: white;
+}
+
+.incident-date {
+    font-weight: bold;
+    color: white;
+}
+
+.comments-section {
+    margin-top: 20px;
+}
+
+.comment {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.comment-box {
+    background: #ddd;
+    padding: 10px;
+    border-radius: 8px;
+    max-width: 70%;
+}
+
+.user-comment .comment-box {
+    background: #444;
+    color: white;
+}
+
+.timestamp {
+    display: block;
+    font-size: 12px;
+    color: gray;
+    margin-top: 5px;
+}
+
+.comment-input {
+    display: flex;
+    margin-top: 20px;
+}
+
+.comment-input input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.comment-input button {
+    padding: 10px 15px;
+    border: none;
+    background: #007bff;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.comment-input button:hover {
+    background: #0056b3;
+}
